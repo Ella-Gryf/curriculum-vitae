@@ -1,8 +1,29 @@
-body {
+@import url("https://fonts.googleapis.com/css?family=Audiowide|Karla|Markazi");
+
+
+/* Global Structural Layouts */
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Markazi Text', 'Karla', 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+}
+
+.base-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  width: 100%;
+  gap: 20px;
+}
+
+.base-container {
+  grid-column-start: 2;
+  grid-column-end: 12;
+  height: 100%;
+}
+
+/* Text Styles */
+body {
+  font-family: 'Karla', 'Tahoma', 'Verdana', 'sans-serif';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -12,9 +33,23 @@ code {
     monospace;
 }
 
+h1, h2, h3,
+h4, h5, h6 {
+  font-family: 'AudioWide', 'Courier' 'Georgia', 'Times', 'serif', ;
+}
+
 nav ul,
 nav a,
 nav li {
   list-style-type: none;
   text-decoration: none;
+}
+
+
+
+
+.icon:active {
+  transform: translate(5px);
+  box-shadow: 0px 0px 1px rgba(0,0,0,0,.2);
+  border-bottom: none;
 }
