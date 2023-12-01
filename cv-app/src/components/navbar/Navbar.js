@@ -64,7 +64,7 @@ const Navbar = () => {
               <Link to="/volunteering" className={`${isActive(loc, "/volunteering")} li`}>Volunteering</Link>
             </li>
             <li>
-              <Link to="references" className={`${isActive(loc, "/references")} li`}>References</Link>
+              <Link to="/references" className={`${isActive(loc, "/references")} li`}>References</Link>
             </li>
           </ul>
         </nav>

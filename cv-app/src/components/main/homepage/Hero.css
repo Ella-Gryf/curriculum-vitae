@@ -1,0 +1,44 @@
+.hero {
+  height: 60vh;
+  background-image: url('../../../assets/hero-img.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.hero .base-container  {
+  display: grid;
+  grid-template-rows: 5.5fr 4fr;
+  align-items: last baseline;
+  text-align: center;  
+}
+
+.hero h1 {
+  font-size: 50pt;
+  font-family: 'AudioWide';
+  color: #ffffff;
+}
+
+.hero nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 35pt;
+  padding-bottom: 1.5rem;
+}
+
+.hero .link {
+  display: flex;
+  align-items: bottom;
+  color: #ffffff;
+}
+
+.hero .link:hover {
+  text-decoration: underline;
+}
+
+.hero .arrow {
+  font-size: 45pt;
+}
+
+
