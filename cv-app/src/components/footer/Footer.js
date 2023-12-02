@@ -1,20 +1,54 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { FaDownload } from "react-icons/fa";
+import './Footer.css';
+
 
 const Footer = () => {
   return (
-    <footer className='base-grid'>
+    <footer className='footer base-grid'>
       <div className='base-container'>
-        Footer
-
-
         
-        {/*
-          Add copyright page:
+        <div className='col'>
+          <h3>Navigate</h3>
+          <nav role='navigation'>
+            <ul>
+              <li><Link to="/" className='li'>Home</Link></li>
+              <li><Link to="/about" className='li'>About</Link></li>
+              <li><Link to="/software" className='li'>Software</Link></li>
+              <li><Link to="/education" className='li'>Education</Link></li>
+              <li><Link to="/volunteering" className='li'>Volunteering</Link></li>
+              <li><Link to="/references" className='li'>References</Link></li>
+            </ul>
+          </nav>
+        </div>
 
-          = hero-img: <a href="https://www.freepik.com/free-vector/blue-data-technology-background-with-circuit-lines_16406724.htm#query=blue-data-technology-background-with-circuit-lines&position=28&from_view=search&track=sph&uuid=6757c423-ed52-40fd-ad16-8f480768c4d3">Image by rawpixel.com</a> on Freepik
-        */}
+        <div className='col'>
+          <h3>Contact</h3>
+          <p>+447546347023</p>
+          <p>ellagryflow@gmail.com</p>
+          <p>5 The Grove</p>
+          <p>Huntingdon</p>
+          <p>PE29 1YD</p>
+        </div>
+
+        <div className='col'>
+          <h3>Channels</h3>
+          <nav>
+            <ul>
+              <li><a key={'linkedin'} href={'https://www.linkedin.com/in/ella-gryf-lowczowska/'}>LinkedIn</a></li>
+              <li><a key={'git'} href={'https://github.com/Ella-Gryf/curriculum-vitae.git'}>Git</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div className='col centre-align'>
+          <h3>Downloadable PDF</h3>
+          <button className='btn'>
+            <FaDownload />
+          </button>
+        </div>
       </div>
-
 
     </footer>
   );

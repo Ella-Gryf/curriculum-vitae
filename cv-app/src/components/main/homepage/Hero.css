@@ -1,30 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Audiowide|Karla|Orbitron");
+
 .hero {
-  height: 60vh;
+  height: 95vh;
   background-image: url('../../../assets/hero-img.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
+  padding-top: 10px;
+  position: relative;
+  z-index: 1;
 }
 
 .hero .base-container  {
   display: grid;
-  grid-template-rows: 5.5fr 4fr;
+  grid-template-rows: 4fr 4fr;
   align-items: last baseline;
   text-align: center;  
 }
 
 .hero h1 {
-  font-size: 50pt;
-  font-family: 'AudioWide';
+  font-size: 60pt;
+  font-family: 'Audiowide';
   color: #ffffff;
 }
 
 .hero nav {
   display: flex;
   justify-content: space-between;
-  font-size: 35pt;
-  padding-bottom: 1.5rem;
+  font-size: 40pt;
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .hero .link {
@@ -35,6 +41,7 @@
 
 .hero .link:hover {
   text-decoration: underline;
+  transform: translate(10px);
 }
 
 .hero .arrow {

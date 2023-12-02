@@ -1,0 +1,33 @@
+.about {
+  height: 80vh;
+  background-image: url('../../../assets/about-img.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  border-style: solid;
+  border-width: 3px;
+  border-image: linear-gradient(to left, rgba(0, 0, 0, 1) 1%, rgba(0, 255, 255, 1) 50%, rgba(0, 0, 0, 1) 100%) 
+                100% 0 100% 0/4px 0 0 0 stretch;
+  position: relative;
+  z-index: 1;
+}
+
+.about .base-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+.about p {
+  font-size: 18pt;
+  padding: 1rem;
+}
+
+.about button {
+  margin-top: 2.5rem;
+}
+

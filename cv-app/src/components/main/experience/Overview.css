@@ -1,0 +1,76 @@
+.experience-overview {
+  height: 100%;
+  min-height: 70vh;
+  background-color: #143AA2;
+  color: #ffffff;
+}
+
+
+.experience-overview .row {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 20px;
+  padding: 50px;
+  margin-bottom: 1rem;
+  align-items: center;
+  text-align: left;
+}
+
+.experience-overview .right {
+  margin-left: 5rem;
+}
+
+
+.experience-overview h1,
+.experience-overview h2 {
+  font-family: 'Tahoma';
+}
+
+.experience-overview h1 {
+  font-size: 60pt;
+  text-align: right;
+  padding: 3rem;
+}
+
+.experience-overview h2 {
+  font-size: 35pt;
+  font-weight: 600;
+}
+
+.experience-overview h3 {
+  font-size: 25pt;
+  font-weight: 500;
+}
+
+.experience-overview h4 {
+  font-size: 20pt;
+  font-weight: 500;
+}
+
+.experience-overview .col-text * {
+  margin-bottom: .5rem;
+}
+
+.experience-overview .btn {
+  margin-top: 1rem;
+}
+
+.experience-overview .img-small {
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 15px -2px 10px 10px #3E8DE3;
+}
+
+.experience-overview .img-lrg {
+  border-radius: 10px;
+  width: 460px;
+  box-shadow: 15px -2px 10px 10px #3E8DE3;
+}
+
+
+/*File Specific */
+
+.references .row {
+  height: 100%;
+  align-items: center;
+}

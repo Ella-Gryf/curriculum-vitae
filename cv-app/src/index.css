@@ -21,11 +21,18 @@
   height: 100%;
 }
 
+.base-container-narrow {
+  grid-column-start: 3;
+  grid-column-end: 11;
+  height: 100%;
+}
+
 /* Text Styles */
 body {
   font-family: 'Karla', 'Tahoma', 'Verdana', 'sans-serif';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #ececec;
 }
 
 code {
@@ -59,6 +66,7 @@ nav li {
   cursor: pointer;
   font-size: 18pt;
   font-weight: 700;
+  text-decoration: none;
 }
 
 .btn:active {
