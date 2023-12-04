@@ -1,4 +1,5 @@
 import React from 'react';
+import CV from '../../../assets/Ella_CV.pdf';
 import './About.css';
 
 const About = () => {
@@ -20,9 +21,10 @@ const About = () => {
             Bio sentence. Bio sentence. Bio sentence. Bio sentence. 
             Bio sentence. Bio sentence. Bio sentence. 
           </p>
-          <button className='btn'>
-            Download CV PDF
-          </button>
+
+          <a href={CV} download="EllaCV" target="_blank">
+            <button className='btn'>Download CV.pdf</button>
+          </a>
         </div>
       </div>
     </div>

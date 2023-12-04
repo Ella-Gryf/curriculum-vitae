@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Audiowide|Karla|Markazi");
+@import url("https://fonts.googleapis.com/css?family=Audiowide|Karla|Markazi|Montserrat");
 
 
 /* Global Structural Layouts */
@@ -29,7 +29,7 @@
 
 /* Text Styles */
 body {
-  font-family: 'Karla', 'Tahoma', 'Verdana', 'sans-serif';
+  font-family: 'Montserrat', 'Tahoma', 'Verdana', 'sans-serif', 'Karla';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #ececec;
@@ -47,12 +47,32 @@ h4, h5, h6 {
 
 nav ul,
 nav a,
-nav li {
+nav li,
+.link {
   list-style-type: none;
   text-decoration: none;
 }
 
 
+
+.video-eighty {
+  filter: brightness(80%);
+}
+.video-seventy {
+  filter: brightness(70%);
+}
+.video-sixty {
+  filter: brightness(60%);
+}
+.video-fifty {
+  filter: brightness(50%);
+}
+.video-forty {
+  filter: brightness(40%);
+}
+.video-thirty {
+  filter: brightness(30%);
+}
 
 
 
@@ -65,7 +85,9 @@ nav li {
   transition: .4s;
   cursor: pointer;
   font-size: 18pt;
-  font-weight: 700;
+  font-weight: 800;
+  font-family: 'Montserrat';
+  font-weight: 800;
   text-decoration: none;
 }
 

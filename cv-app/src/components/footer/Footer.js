@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import { FaDownload } from "react-icons/fa";
 import './Footer.css';
 
+import CV from '../../assets/Ella_CV.pdf';
+
 
 const Footer = () => {
   return (
@@ -44,9 +46,9 @@ const Footer = () => {
 
         <div className='col centre-align'>
           <h3>Downloadable PDF</h3>
-          <button className='btn'>
-            <FaDownload />
-          </button>
+          <a href={CV} download="EllaCV" target="_blank">
+            <button className='btn'><FaDownload /></button>
+          </a>
         </div>
       </div>
 
