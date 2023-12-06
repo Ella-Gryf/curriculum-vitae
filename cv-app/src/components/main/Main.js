@@ -10,7 +10,10 @@ import References from './experience/References';
 
 import SoftwareMeta from './experience/SoftwareMeta';
 import EducationMSc from './experience/EducationMSc';
-import VolunteeringMentor from './experience/VolunteeringMentor';
+
+import VolunteerMentor from './experience/entries/VolunteerMentor';
+import VolunteerFuze from './experience/entries/VolunteerFuze';
+import VolunteerStar from './experience/entries/VolunteerStar';
 
 const Main = () => {
   return (
@@ -30,7 +33,9 @@ const Main = () => {
 
         <Route path='/education/msc' element={<EducationMSc />} />
 
-        <Route path='/volunteering/mentor' element={<VolunteeringMentor />} />
+        <Route path='/volunteer/mentor' element={<VolunteerMentor />} />
+        <Route path='/volunteer/fuze' element={<VolunteerFuze />} />
+        <Route path='/volunteer/star' element={<VolunteerStar />} />
       </Routes>
     </main>
   )

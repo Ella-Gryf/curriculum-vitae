@@ -46,7 +46,7 @@ const Footer = () => {
 
         <div className='col centre-align'>
           <h3>Downloadable PDF</h3>
-          <a href={CV} download="EllaCV" target="_blank">
+          <a href={CV} download="EllaCV" target="_blank" rel="noreferrer">
             <button className='btn'><FaDownload /></button>
           </a>
         </div>

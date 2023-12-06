@@ -30,15 +30,15 @@
 
 .footer h3 {
   font-family: 'AudioWide';
-  font-size: 12pt;
+  font-size: 14pt;
   color: #143AA2;
 }
 
 .footer p,
 .footer a,
 .footer .li {
-  font-size: 12pt;
-  line-height: 1.4rem;
+  font-size: 14pt;
+  line-height: 1.8rem;
   color: #04060D;
 }
 

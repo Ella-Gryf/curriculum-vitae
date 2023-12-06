@@ -77,7 +77,7 @@ export const volunteeringData = [
     subtitle: "Code First Girls X Goldman Sachs",
     dates: "September - November 2022",
     image: require("../assets/cfg.jpg"),
-    url: '/volunteering/mentor',
+    url: '/volunteer/mentor',
     imgRatio: "wide-img",
   },
   {
@@ -85,7 +85,7 @@ export const volunteeringData = [
     subtitle: "FUZE Bristol",
     dates: "September 2020 - August 2022",
     image: require("../assets/fuze/alice_maya.jpg"),
-    url: '/volunteering/charity',
+    url: '/volunteer/fuze',
     imgRatio: "wide-img",
   },
   {
@@ -93,7 +93,7 @@ export const volunteeringData = [
     subtitle: "FUZE Bristol",
     dates: "September 2021 - August 2022",
     image: require("../assets/fuze/titus2.jpg"),
-    url: '/volunteer/ela',
+    url: '/volunteer/fuze',
     imgRatio: "wide-img",
   },
   {
