@@ -30,7 +30,7 @@ const EducationMSc = () => {
           </div>
           <img 
             src={comp1} 
-            alt="Image of computer" 
+            alt="computer cartoon" 
             className='img-right img-radius box-shadow' />
         </div> 
       
@@ -48,7 +48,11 @@ const EducationMSc = () => {
             
             <p>
             See the dissertation <span></span>
-            <a href='https://github.com/Ella-Gryf/msc-dissertation.git' target='_blank'>here</a>
+            <a href='https://github.com/Ella-Gryf/msc-dissertation.git' 
+              target='_blank' 
+              rel="noreferrer">
+                here
+            </a>
           </p>
           </div>
 

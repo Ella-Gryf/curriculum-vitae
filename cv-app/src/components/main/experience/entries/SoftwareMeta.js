@@ -25,7 +25,9 @@ const SoftwareMeta = () => {
               <li>Principles of UX/UI design, Figma</li> 
               <li>Bootstrap CSS Framework, Chakra UI</li>
               <li>Capstone Project <span> </span> 
-                <a href='https://github.com/Ella-Gryf/MetaFrontEndCertification.git' target="_blank">
+                <a href='https://github.com/Ella-Gryf/MetaFrontEndCertification.git' 
+                  target="_blank" 
+                  rel="noreferrer">
                   viewable here
                 </a>
               </li>        
@@ -54,7 +56,7 @@ const SoftwareMeta = () => {
 
           <div className='text-content'>
             <h2 className='center-content'>Capstone Project <span> </span>
-              <a href='https://github.com/Ella-Gryf/MetaFrontEndCertification.git' target="_blank">
+              <a href='https://github.com/Ella-Gryf/MetaFrontEndCertification.git' target="_blank" rel="noreferrer">
                 Little Lemon
               </a>
             </h2>

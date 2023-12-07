@@ -3,8 +3,6 @@ import React from 'react';
 import java from '../../../../assets/techicons/java.jpg';
 import git from '../../../../assets/techicons/git.jpg';
 import zoom from '../../../../assets/techicons/zoom.jpg';
-import aws from '../../../../assets/techicons/aws.jpg';
-
 
 
 const SoftwareIntern = () => {
