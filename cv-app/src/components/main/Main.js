@@ -8,8 +8,14 @@ import Education from './experience/Education';
 import Volunteering from './experience/Volunteering';
 import References from './experience/References';
 
-import SoftwareMeta from './experience/SoftwareMeta';
-import EducationMSc from './experience/EducationMSc';
+import SoftwareMeta from './experience/entries/SoftwareMeta';
+import SoftwareAnalyst from './experience/entries/SoftwareAnalyst';
+import SoftwareIntern from './experience/entries/SoftwareIntern';
+
+import EducationMSc from './experience/entries/EducationMSc';
+import EducationMA from './experience/entries/EducationMA';
+import EducationBC from './experience/entries/EducationBC';
+import EducationIos from './experience/entries/EducationIos';
 
 import VolunteerMentor from './experience/entries/VolunteerMentor';
 import VolunteerFuze from './experience/entries/VolunteerFuze';
@@ -30,8 +36,13 @@ const Main = () => {
 
 
         <Route path='/software/meta' element={<SoftwareMeta />} />
+        <Route path='/software/analyst' element={<SoftwareAnalyst />} />
+        <Route path='/software/intern' element={<SoftwareIntern />} />
 
         <Route path='/education/msc' element={<EducationMSc />} />
+        <Route path='/education/ma' element={<EducationMA />} />
+        <Route path='/education/bc' element={<EducationBC />} />
+        <Route path='/education/ios' element={<EducationIos />} />
 
         <Route path='/volunteer/mentor' element={<VolunteerMentor />} />
         <Route path='/volunteer/fuze' element={<VolunteerFuze />} />

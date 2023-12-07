@@ -66,7 +66,7 @@ export const educationData = [
     subtitle: "Boston College, Dublin School",
     dates: "August 2018 - June 2019",
     image: require("../assets/bcDub2.jpeg"),
-    url: '/education/bc',
+    url: '/education/ios',
     imgRatio: "wide-img",
   },
 ];
@@ -101,7 +101,7 @@ export const volunteeringData = [
     subtitle: "Student Action for Refugees",
     subtitle2: "Bristol",
     dates: "September 2026 - June 2017",
-    image: require("../assets/teacher.jpg"),
+    image: require("../assets/teaching1.jpg"),
     url: '/volunteer/star',
     imgRatio: "wide-img",
   },

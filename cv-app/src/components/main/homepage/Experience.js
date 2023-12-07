@@ -42,7 +42,7 @@ const settings = {
       <div className='base-container'>
         <Slider {...settings}>
           {data.map((dataEntry) => (
-            <Card key={dataEntry.url} {...dataEntry} />
+            <Card key={`${dataEntry.url}-${dataEntry.title}`} {...dataEntry} />
           ))}
         </Slider>
         <div id='scroll-instruction'><TbHandFinger /><h3>DRAG TO SCROLL</h3></div>

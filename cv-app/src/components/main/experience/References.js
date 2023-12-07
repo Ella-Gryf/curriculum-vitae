@@ -9,7 +9,7 @@ const References = () => {
     <div className='experience-overview references base-grid'>    
       <div className='base-container-narrow'>
         {referencesData.map((entry) => (
-          <OverviewCard key={entry.url} {...entry} className='card' />
+          <OverviewCard key={`${entry.url}-${entry.title}`} {...entry} className='card' />
         ))}
       </div>
     </div>

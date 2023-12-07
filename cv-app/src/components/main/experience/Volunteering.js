@@ -11,7 +11,7 @@ const Volunteering = () => {
       
       <div className='base-container-narrow'>
         {volunteeringData.map((entry) => (
-          <OverviewCard key={entry.url} {...entry} className='card' />
+          <OverviewCard key={`${entry.url}-${entry.title}`} {...entry} className='card' />
         ))}
 
       </div>
