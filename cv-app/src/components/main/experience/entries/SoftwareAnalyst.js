@@ -127,7 +127,7 @@ const SoftwareAnalyst = () => {
           <div className='text-content'>
             <h2>Moving Abroad</h2>
             <p>
-              I had never once been in Warsaw before this job, which I started a 
+              I had never been in Warsaw before this job, which I started a 
               week after national lockdown in winter. The lessons I learned with 
               regards to forming connections in a new city, integrating into 
               local culture and proactively initiating social occasions with 

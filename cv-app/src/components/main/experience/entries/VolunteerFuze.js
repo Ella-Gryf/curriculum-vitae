@@ -71,7 +71,7 @@ const VolunteerFuze = () => {
         </div>
 
         <div className='row' id='fuze-link'>
-          <h2 className='italic'>See the <a href="https://fuzeuk.org/">FUZE website </a>for more</h2>
+          <h2 className='italic'>See the <a href="https://fuzeuk.org/" target="_blank">FUZE website </a>for more</h2>
         </div>
       </div>
 

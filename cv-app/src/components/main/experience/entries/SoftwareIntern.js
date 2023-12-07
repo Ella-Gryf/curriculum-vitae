@@ -19,8 +19,8 @@ const SoftwareIntern = () => {
             <h2>Internship</h2>
             <p>
               Due to Covid, the internship programme was entirely remote
-              for everyone. Myself and the other intern in my team together
-              built an inventory feed, to report on the state of users'
+              for everyone. I and the other intern in my team together
+              built an inventory feed to report on the state of users'
               active decision models on the platform. We achieved this by querying 
               the platform APIs to retrieve the metadata attached to each decision model.
             </p>
