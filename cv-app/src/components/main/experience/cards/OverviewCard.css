@@ -1,0 +1,89 @@
+.overview-card {
+  height: 100%;
+  width: 800px;
+  border-radius: 30px;
+  background-color: #e8e8ea;
+  box-shadow: 0px 0px 10px 5px #afb1b6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  position: relative;
+  z-index: 2;
+}
+
+.overview-card .text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.overview-card .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 1.5rem 1rem 1.5rem;
+}
+
+.overview-card .row span {
+  display: flex;
+  align-items: center;
+}
+
+.overview-card .grade-icon {
+  font-size: 25pt;
+  color: rgb(238, 238, 3);
+}
+
+.overview-card h1 {
+  font-size: 36pt;
+  font-weight: 600;
+}
+.overview-card h2 {
+  font-size: 28pt;
+  font-weight: 500;
+}
+.overview-card h3 {
+  font-size: 20pt;
+  font-weight: 500;
+}
+
+.overview-card .link {
+  display: flex;
+  align-items: center;
+  color: #333333;
+  font-size: 20pt;
+  font-weight: 600;
+}
+.overview-card .link:hover {
+  text-decoration: underline;
+  transform: translate(10px);
+}
+
+.overview-card .arrow {
+  margin-left: .5rem;
+}
+
+.overview-card .wide-img {
+  grid-area: "image1";
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+.overview-card .tall-img {
+  grid-area: "image1";
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.overview-card img {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.references .overview-card {
+  margin: 50px;
+}

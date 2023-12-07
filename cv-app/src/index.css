@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css?family=Audiowide|Karla|Markazi|Montserrat");
+
+
+/* Global Structural Layouts */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.base-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  width: 100%;
+  gap: 20px;
+}
+
+.base-container {
+  grid-column-start: 2;
+  grid-column-end: 12;
+  height: 100%;
+}
+
+.base-container-narrow {
+  grid-column-start: 3;
+  grid-column-end: 11;
+  height: 100%;
+}
+
+/* Text Styles */
+body {
+  font-family: 'Montserrat', 'Tahoma', 'Verdana', 'sans-serif', 'Karla';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ececec;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+  font-family: 'AudioWide', 'Courier' 'Georgia', 'Times', 'serif';
+}
+
+nav ul,
+nav a,
+nav li,
+.link {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+
+.align-right {
+  text-align: center;
+}
+
+.box-shadow {
+  box-shadow: 0px 0px 10px 4px #d3d4d7;;
+}
+
+.img-radius {
+  border-radius: 15px;
+}
+
+
+.width-400 {
+  width: 400px;
+}
+.width-450 {
+  width: 450px;
+}
+.width-500 {
+  width: 500px;
+}
+.height-400 {
+  height: 400px;
+}
+.height-500 {
+  height: 500px;
+}
+
+
+
+
+
+
+.video-eighty {
+  filter: brightness(80%);
+}
+.video-seventy {
+  filter: brightness(70%);
+}
+.video-sixty {
+  filter: brightness(60%);
+}
+.video-fifty {
+  filter: brightness(50%);
+}
+.video-forty {
+  filter: brightness(40%);
+}
+.video-thirty {
+  filter: brightness(30%);
+}
+
+
+
+.btn {
+  color: #FFFFFF;
+  padding: 12px 24px;
+  background-color: #3E8DE3;
+  border: none;
+  border-radius: 8px;
+  transition: .4s;
+  cursor: pointer;
+  font-size: 18pt;
+  font-weight: 800;
+  font-family: 'Montserrat';
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.btn:active {
+  transform: translate(4px);
+  box-shadow: 0px 0px 1px rgba(0,0,0,0,.2);
+  color: #04060D;
+  background-color: #D3D4D7;
+  border-bottom: none;
+}
+
+.icon {
+  transition: .4s;
+  cursor: pointer;
+}
+
+.icon:active {
+  transform: translate(5px);
+  box-shadow: 0px 0px 1px rgba(0,0,0,0,.2);
+  border-bottom: none;
+  color: #D3D4D7;
+}

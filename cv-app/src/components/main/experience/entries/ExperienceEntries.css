@@ -1,0 +1,379 @@
+.experience-entry {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #04060D;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.experience-entry .base-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0 60px 0;
+}
+
+.experience-entry .base-container-narrow {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin: 60px 0 30px 0;
+}
+
+.experience-entry .center-content {
+  text-align: center;
+}
+
+.experience-entry .top {
+  align-items: first baseline;
+  top: 0;
+}
+
+.experience-entry .image-reel {
+  grid-column-start: 1;
+  grid-column-end: -1;
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 0;
+  width: 100%;
+  justify-content: center;
+  align-items: last baseline;
+  text-align: center;
+  object-fit: contain;
+}
+
+.experience-entry .row {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px; 
+  margin-bottom: 10px;
+}
+
+.msc .grid-row {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.ma .grid-row {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 40px;
+}
+
+/* Boston College */
+.bc .grid-row {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+
+.ios .grid-row {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: .8fr 1fr;
+  gap: 100px;
+}
+
+/* Software */
+.software-entry .grid-row-left {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2.2fr 1fr;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+}
+.software-entry .grid-row-right {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2.2fr;
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+.software-entry .image-container {
+  position: relative;
+  width: 100%; 
+  height: 300px;
+}
+.software-entry .grid-row {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+.experience-entry .text-content {
+  margin: 20px 0 20px 0;
+}
+
+.experience-entry h1 {
+  font-size: 32pt;
+  margin: 1rem 0 1rem 0;
+}
+
+.experience-entry h2 {
+  font-size: 24pt;
+  padding: 0 0 1rem 0;
+}
+
+.experience-entry h3 {
+  text-align: left;
+  font-size: 20pt;
+  margin: 1.5rem 0 .5rem 0;
+}
+
+.experience-entry p {
+  font-size: 17pt;
+  line-height: 1.8rem;
+  padding: 1rem 0 1rem 0;
+}
+
+.experience-entry .list-text {
+  font-size: 17pt;
+  line-height: 2.5rem;
+}
+
+.space-text li {
+  margin-bottom: 10px;
+}
+
+.experience-entry .bold {
+  font-family: 'Tahoma';
+  font-weight: 800;
+}
+
+.experience-entry .italic {
+  font-style: italic;
+}
+
+.experience-entry .no-decoration {
+  list-style: none;
+  text-decoration: none;
+}
+
+.experience-entry .indent-left {
+  margin-left: 1.5rem;
+}
+
+.experience-entry .tall-page-img {
+  border-radius: 15px;
+  height: 500px;
+  margin: 10px 70px 10px 70px;
+}
+
+.experience-entry .wide-page-img {
+  border-radius: 15px;
+  height: 300px;
+  margin: 50px 50px 0 50px;
+}
+
+.experience-entry .tall-img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 300px;
+}
+
+.experience-entry .wide-img {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  height: 275px;
+}
+
+.experience-entry .capstone-img {
+  width: 700px;
+  height: 100%;
+  margin: 20px 50px 50px 50px;
+  object-fit: cover;
+}
+
+
+
+
+
+
+.experience-entry .img-left {
+  width: 450px;
+  margin: 10px 50px 10px 0;
+}
+
+.experience-entry .img-right {
+  width: 450px;
+  margin: 10px 0 10px 100px;
+}
+
+.experience-entry .img-radius-c {
+  border-radius: 35px;
+}
+
+/* Education */
+.experience-entry .pad-right {
+  margin-right: 30px;
+}
+
+.experience-entry .imageA,
+.experience-entry .imageB,
+.experience-entry .img-abs {
+  position: absolute;
+}
+
+.education-entry .image-container {
+  position: relative;
+  width: 100%; 
+  min-height: 50vh;
+}
+
+
+
+
+
+
+
+
+
+
+#mentor {
+  background-image:
+      radial-gradient(
+          circle at 0% 100%,
+          #ff3399 0%,
+          transparent 25%
+
+      ),
+      radial-gradient(
+          circle at 100% 0%,
+          #ff3399 0%,
+          transparent 25%
+      );
+}
+
+#fuze {
+  background-image:
+  radial-gradient(
+      circle at -10% -15%,
+      #ff3399 0%,
+      transparent 25%
+    ),
+    radial-gradient(
+      circle at 0% 60%,
+      #ff3399 0%,
+      transparent 25%
+    ),
+    radial-gradient(
+        circle at 100% 30%,
+        #ff3399 0%,
+        transparent 25%
+    );
+}
+
+#star {
+  background-image:
+    radial-gradient(
+      circle at -5% 50%,
+      #ff3399 0%,
+      transparent 25%
+    ),
+    radial-gradient(
+        circle at 105% 50%,
+        #ff3399 0%,
+        transparent 25%
+    );
+}
+
+
+.software-entry {
+  background-image:
+    radial-gradient(
+      circle at -5% 15%,
+      #66d9ff 0%,
+      transparent 20%
+    ),
+    radial-gradient(
+      circle at 105% 50%,
+      #66d9ff 0%,
+      transparent 25%
+    ),
+    radial-gradient(
+      circle at -5% 80%,
+      #66d9ff 0%,
+      transparent 25%
+    );
+}
+
+.education-entry {
+  background-image:
+    radial-gradient(
+      circle at -5% 50%,
+      #7797ee 0%,
+      transparent 25%
+    ),
+    radial-gradient(
+      circle at 105% 50%,
+      #7797ee 0%,
+      transparent 25%
+    );
+}
+
+
+@media screen and (max-width: 1200px) {
+
+  .experience-entry .grid-row,
+  .experience-entry .grid-row-left,
+  .experience-entry .grid-row-right {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .experience-entry .row {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .experience-entry p {
+    text-align: left;
+  }
+
+  .experience-entry .wide-page-img,
+  .experience-entry .tall-page-img {
+    margin: 10px 0 10px 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+}
