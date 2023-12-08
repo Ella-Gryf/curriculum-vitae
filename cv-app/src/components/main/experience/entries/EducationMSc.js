@@ -5,7 +5,7 @@ import comp1 from '../../../../assets/comp1.jpg';
 
 const EducationMSc = () => {
   return (
-    <div className='experience-entry education-entry base-grid msc' id='msc'>
+    <div className='experience-entry education-entry base-grid' id='msc'>
       <div className='base-container'>
 
         <h1>MSc Computer Science</h1>
@@ -31,11 +31,12 @@ const EducationMSc = () => {
           <img 
             src={comp1} 
             alt="computer cartoon" 
-            className='img-right img-radius box-shadow' />
+            style={{width: "450px"}}
+            className='img-radius box-shadow' />
         </div> 
       
         <div className='grid-row'>
-          <div className='text-content pad-right'>
+          <div className='text-content'>
             <h2>Dissertation</h2>
             <p>
               Researching in the field of computational neuroscience, I developed a deep 
@@ -44,8 +45,6 @@ const EducationMSc = () => {
               abilities by measuring its performance on an Esperanto affix-prediction task
               against that of a human control group.
             </p>
-
-            
             <p>
             See the dissertation <span></span>
             <a href='https://github.com/Ella-Gryf/msc-dissertation.git' 

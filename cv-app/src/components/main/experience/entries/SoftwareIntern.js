@@ -29,15 +29,15 @@ const SoftwareIntern = () => {
             <img src={java} 
               alt="Java logo" 
               className='img-radius-c box-shadow img-abs' 
-              style={{width: "120px", top: "20px", right: "150px", zIndex: "4"}} />
+              id='intern-imgA' />
             <img src={zoom} 
               alt="Zoom logo" 
               className='img-radius-c box-shadow img-abs'
-              style={{width: "120px", top: "150px", right: "80px", zIndex: "2"}} />
+              id='intern-imgB' />
             <img src={git} 
               alt="Git logo" 
               className='img-radius-c box-shadow img-abs' 
-              style={{width: "120px", top: "150px", right: "210px", zIndex: "3"}} />
+              id='intern-imgC' />
           </div>
 
         </div>

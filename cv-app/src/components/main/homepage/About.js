@@ -7,7 +7,6 @@ const About = () => {
   return (
     <div className='homepage about base-grid'>
       <div className='base-container'>
-        <div></div>
         <div className='content'>
           <p>
             I'm Ella, a software developer currently living in East London.

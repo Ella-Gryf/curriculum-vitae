@@ -38,28 +38,30 @@ const SoftwareMeta = () => {
             <img src={react} 
               alt="React logo" 
               className='img-radius box-shadow img-abs' 
-              style={{width: "120px", top: "15px", right: "180px", zIndex: "4"}} />
+              id='meta-imgA' />
             <img src={npm} 
               alt="NPM logo" 
               className='img-radius box-shadow img-abs'
-              style={{width: "120px", top: "80px", right: "45px", zIndex: "2"}} />
+              id='meta-imgB' />
             <img src={javascript} 
               alt="JavaScript logo" 
               className='img-radius box-shadow img-abs' 
-              style={{width: "120px", top: "80px", right: "315px", zIndex: "3"}} />
+              id='meta-imgC' />
               <img src={bootstrap} 
               alt="Bootstrap logo" 
               className='img-radius box-shadow img-abs'
-              style={{width: "120px", top: "155px", right: "180px", zIndex: "2"}} />
+              id='meta-imgD' />
           </div>
         </div> 
 
           <div className='text-content'>
-            <h2 className='center-content'>Capstone Project <span> </span>
+            <h2 className='center-content'>Capstone Project Little Lemon</h2>
+            <p className='repo-link italic center-content'>See the<span> </span>
               <a href='https://github.com/Ella-Gryf/MetaFrontEndCertification.git' target="_blank" rel="noreferrer">
-                Little Lemon
+                Git Repo
               </a>
-            </h2>
+            </p>
+            
             <div className='center-content top'>
               <img src={littlelemon1} alt="Little Lemon reservation form" className='capstone-img' />
               <img src={littlelemon2} alt="Little Lemon reservation form" className='capstone-img' />

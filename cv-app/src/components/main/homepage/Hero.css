@@ -66,3 +66,23 @@
 .hero .arrow {
   font-size: 60pt;
 }
+
+
+@media screen and (max-width:940px) {
+  .hero nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2.5em;
+  }
+
+  .hero h1 {
+    font-size: 3em;
+  }
+
+  .hero h2 {
+    font-size: 1.5em;
+  }
+}

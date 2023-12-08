@@ -38,7 +38,7 @@ const settings = {
   };
 
   return (
-    <div className='experience base-grid'>
+    <div className='homepage experience base-grid'>
       <div className='base-container'>
         <Slider {...settings}>
           {data.map((dataEntry) => (

@@ -11,7 +11,7 @@ const OverviewCard = (props) => {
 
 
   return (
-    <div className='overview-card'>
+    <div className='overview-card box-shadow'>
 
       {props.image ? <img src={props.image} alt="" className={props.imgRatio}/> : null}
       

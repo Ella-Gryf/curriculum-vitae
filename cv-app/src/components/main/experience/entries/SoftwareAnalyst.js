@@ -44,25 +44,23 @@ const SoftwareAnalyst = () => {
             <img src={java} 
               alt="Java logo" 
               className='img-radius-c box-shadow img-abs' 
-              style={{width: "120px", top: "10px", right: "135px", zIndex: "4"}} />
+              id='analyst-imgA' />
             <img src={elastic} 
               alt="Elasticsearch logo" 
               className='img-radius-c box-shadow img-abs'
-              style={{width: "120px", top: "140px", right: "135px", zIndex: "2"}} />
+              id='analyst-imgB' />
             <img src={aws} 
               alt="AWS logo" 
               className='img-radius-c box-shadow img-abs' 
-              style={{width: "120px", top: "70px", right: "270px", zIndex: "3"}} />
+              id='analyst-imgC' />
             <img src={kafka} 
               alt="Apache Kafka logo" 
               className='img-radius-c box-shadow img-abs'
-              style={{width: "120px", top: "70px", right: "0px", zIndex: "2"}} />
+              id='analyst-imgD' />
           </div>
-
         </div>
 
-
-        <h2 style={{marginTop: "20px"}}>My Contributions</h2>
+        <h2>My Contributions</h2>
 
         <div className='grid-row-right'>
 
@@ -70,19 +68,19 @@ const SoftwareAnalyst = () => {
             <img src={k8} 
               alt="Kubernetes" 
               className='img-radius-c box-shadow img-abs' 
-              style={{width: "120px", top: "10px", right: "135px", zIndex: "4"}} />
+              id='analyst-imgE' />
             <img src={argo} 
               alt="ArgoCD logo" 
               className='img-radius-c box-shadow img-abs'
-              style={{width: "120px", top: "140px", right: "135px", zIndex: "2"}} />
+              id='analyst-imgF' />
             <img src={prometheus} 
               alt="Prometheus logo" 
               className='img-radius-c box-shadow img-abs' 
-              style={{width: "120px", top: "70px", right: "270px", zIndex: "3"}} />
+              id='analyst-imgG' />
             <img src={grafana} 
               alt="Grafana dashboards logo" 
               className='img-radius-c box-shadow img-abs'
-              style={{width: "120px", top: "70px", right: "0px", zIndex: "2"}} />
+              id='analyst-imgH' />
           </div>
 
           <div className='text-content'>
@@ -140,7 +138,7 @@ const SoftwareAnalyst = () => {
             <img src={eden} 
               alt="Friends in Warsaw" 
               className='img-radius box-shadow img-abs' 
-              style={{height: "280px", right: "10px", marginTop: "2rem"}} />
+              style={{height: "280px", right: "10px", marginTop: "1rem"}} />
           </div>
         </div>
 
