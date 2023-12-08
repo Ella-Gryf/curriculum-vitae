@@ -38,8 +38,24 @@ const Footer = () => {
           <h3>Channels</h3>
           <nav>
             <ul>
-              <li><a key={'linkedin'} href={'https://www.linkedin.com/in/ella-gryf-lowczowska/'}>LinkedIn</a></li>
-              <li><a key={'git'} href={'https://github.com/Ella-Gryf/curriculum-vitae.git'}>Git</a></li>
+              <li>
+                <a 
+                  key={'linkedin'} 
+                  href={'https://www.linkedin.com/in/ella-gryf-lowczowska/'} 
+                  target="_blank" 
+                  rel="noreferrer">
+                    LinkedIn
+                </a>
+              </li>
+              <li>
+                <a 
+                  key={'git'} 
+                  href={'https://github.com/Ella-Gryf/curriculum-vitae.git'} 
+                  target="_blank" 
+                  rel="noreferrer">
+                    Git
+                </a>
+              </li>
             </ul>
           </nav>
         </div>

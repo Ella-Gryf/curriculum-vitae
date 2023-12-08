@@ -226,6 +226,9 @@
 }
 
 /* Image by id */
+#msc-imgA {
+  width: 450px;
+}
 #bc-imgA {
   width: 420px;
   top: 10%;
@@ -565,5 +568,9 @@
     margin-top: 1rem;
     width: 100px;
     position: relative;
+  }
+
+  #msc-imgA {
+    width: 300px;
   }
 }

@@ -41,7 +41,7 @@ const Navbar = () => {
       <div className='base-container'>
         <nav id="socials">
           {socials.map(({icon, url}) => (
-            <a key={url} href={url} icon={icon}>
+            <a key={url} href={url} icon={icon} target="_blank" rel="noreferrer">
               <FontAwesomeIcon icon={icon} size="2x" />
             </a>
           ))}

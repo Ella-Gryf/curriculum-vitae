@@ -31,14 +31,14 @@ const EducationMSc = () => {
           <img 
             src={comp1} 
             alt="computer cartoon" 
-            style={{width: "450px"}}
+            id='msc-imgA'
             className='img-radius box-shadow' />
         </div> 
       
         <div className='grid-row'>
           <div className='text-content'>
             <h2>Dissertation</h2>
-            <p>
+            <p style={{marginRight: "1rem"}}>
               Researching in the field of computational neuroscience, I developed a deep 
               learning algorithm called a Long Short-Term Memor {`(LSTM)`} network. Using 
               Esperanto as my test case, I investigated the LSTM's grammatical encoding
