@@ -48,7 +48,7 @@
   padding: .5rem;
 }
 
-@media screen and (max-width:1200px){
+@media screen and (max-width:1250px){
   .navbar .hamburger {
     display: block;
   }

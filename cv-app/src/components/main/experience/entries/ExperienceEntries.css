@@ -123,23 +123,23 @@
 
 .experience-entry h2 {
   font-size: 24pt;
-  padding: 0 0 1rem 0;
+  padding: 0 0 .5rem 0;
 }
 
 .experience-entry h3 {
   text-align: left;
   font-size: 20pt;
-  margin: 1.5rem 0 .5rem 0;
+  margin: .5rem 0 .5rem 0;
 }
 
 .experience-entry p {
   font-size: 17pt;
   line-height: 1.8rem;
-  padding: 1rem 0 1rem 0;
+  padding: 1rem 0 .5rem 0;
 }
 
 .experience-entry .list-text {
-  font-size: 17pt;
+  font-size: 18pt;
   line-height: 2.5rem;
 }
 
@@ -345,6 +345,12 @@
   z-index: 2;
 }
 
+#analyst-img-friends {
+  height: 280px;
+  right: 10px;
+  margin-top: 3rem;
+}
+
 #intern-imgA {
   width: 120px;
   top: 20px;
@@ -453,6 +459,88 @@
 
 
 
+
+
+#analyst-img-friends {
+  margin: 0 0 0 0;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+  .experience-entry .grid-row,
+  .experience-entry .grid-row-left,
+  .experience-entry .grid-row-right,
+  .experience-entry .row {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .software-entry .image-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  #meta-imgA, #meta-imgB, #meta-imgC, #meta-imgD,
+  #analyst-imgA, #analyst-imgB, #analyst-imgC, #analyst-imgD,
+  #analyst-imgE, #analyst-imgF, #analyst-imgG, #analyst-imgH,
+  #intern-imgA, #intern-imgB, #intern-imgC {
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 10px 10px 10px 10px;
+    width: 100px;
+    position: relative;
+  }
+
+  .education-entry .image-container img {
+    margin: 0px;
+  }
+
+  #bc-imgA, #bc-imgB, #ios-imgA, #ios-imgB, #ios-imgC,
+  #analyst-img-friends {
+    top: 0;
+    right: 0;
+    left: 0;
+    margin-bottom: 10px;
+    position: relative;
+  }
+}
+
+
+@media screen and (max-width: 900px) {
+  .capstone-img {
+    width: auto;
+    max-width: 90vw;
+    height: auto;
+    margin: 10px 0 10px 0;
+  }
+
+  .experience-entry h1 {
+    font-size: 28pt;
+  }
+  .experience-entry h2 {
+    font-size: 20pt;
+  }
+  .experience-entry p,
+  .experience-entry .list-text {
+    font-size: 16pt;
+  }
+}
+
 @media screen and (max-width: 700px) {
 
   .software-entry .text-content {
@@ -478,77 +566,4 @@
     width: 100px;
     position: relative;
   }
-}
-
-
-@media screen and (max-width: 900px) {
-  .capstone-img {
-    width: auto;
-    max-width: 90vw;
-    height: auto;
-    margin: 10px 0 10px 0;
-  }
-
-  .experience-entry h1 {
-    font-size: 28pt;
-  }
-  .experience-entry h2 {
-    font-size: 20pt;
-  }
-  .experience-entry p,
-  .experience-entry .list-text {
-    font-size: 14pt;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-
-  .experience-entry .grid-row,
-  .experience-entry .grid-row-left,
-  .experience-entry .grid-row-right,
-  .experience-entry .row {
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .image-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
-  .education-entry .image-container img {
-    margin: 0px;
-  }
-
-  #bc-imgA, #bc-imgB, #ios-imgA, #ios-imgB, #ios-imgC {
-    top: 0;
-    right: 0;
-    left: 0;
-    margin-bottom: 10px;
-    position: relative;
-  }
-  
-}
-
-@media screen and (max-width: 1100px) {
-
-  .experience-entry p {
-    text-align: left;
-  }
-
-  .experience-entry .wide-page-img,
-  .experience-entry .tall-page-img {
-    margin: 10px 0 10px 0;
-    padding: 0;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-
 }

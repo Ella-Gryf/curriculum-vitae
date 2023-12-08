@@ -60,10 +60,9 @@ const SoftwareAnalyst = () => {
           </div>
         </div>
 
-        <h2>My Contributions</h2>
+        <h2 style={{marginTop: "2rem"}}>My Contributions</h2>
 
-        <div className='grid-row-right'>
-
+        <div className='grid-row-right'>          
           <div className='image-container'>
             <img src={k8} 
               alt="Kubernetes" 
@@ -84,7 +83,6 @@ const SoftwareAnalyst = () => {
           </div>
 
           <div className='text-content'>
-            
             <h3>Kubernetes</h3>
             <p>
               A fellow analyst and I began the process of containerizing our platform with Kubernetes and
@@ -138,7 +136,7 @@ const SoftwareAnalyst = () => {
             <img src={eden} 
               alt="Friends in Warsaw" 
               className='img-radius box-shadow img-abs' 
-              style={{height: "280px", right: "10px", marginTop: "1rem"}} />
+              id='analyst-img-friends' />
           </div>
         </div>
 

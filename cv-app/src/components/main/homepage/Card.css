@@ -17,7 +17,7 @@
 
 .card h1 {
   color: #ffffff;
-  font-size: 35pt;
+  font-size: 3rem;
   font-family: 'AudioWide';
   padding: .5rem;
   background-color: rgba(44, 101, 162, 0.9);
@@ -32,6 +32,27 @@
   width: auto;
 }
 
-@media screen and (max-width:480px) {
-  
+
+
+@media screen and (max-width: 940px) {
+
+  .card {
+    height: auto;
+    min-height: 500px;
+    width: auto;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+  }
+
+  .card button {
+    margin-bottom: 2rem;
+    min-width: 70%;
+  }
+
+  .card h1 {
+    font-size: 2rem;
+  }
 }
