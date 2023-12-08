@@ -29,11 +29,11 @@ const VolunteerFuze = () => {
                sales from the final show and other fundraising initiatives throughout the year.                 
             </p>     
           </div>
-          <img src={darnell} alt="FUZE show" className='wide-page-img' /> 
+          <img src={darnell} alt="FUZE show" className='wide-page-img img-radius box-shadow' /> 
         </div>
 
         <div className='row'>
-          <img src={sofa2} alt="FUZE musicians" className='tall-page-img' />
+          <img src={sofa2} alt="FUZE musicians" className='tall-page-img box-shadow img-radius' />
           <div className='text-content'>
             <h2>Charity Director</h2>
             <p>
@@ -67,7 +67,7 @@ const VolunteerFuze = () => {
               UK societies and student-led organisations. 
             </p>
           </div>
-          <img src={titus} alt="FUZE show" className='tall-page-img' />
+          <img src={titus} alt="FUZE show" className='tall-page-img box-shadow img-radius' />
         </div>
 
         <div className='row' id='fuze-link'>

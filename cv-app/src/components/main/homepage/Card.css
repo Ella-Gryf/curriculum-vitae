@@ -3,8 +3,7 @@
   background-repeat: no-repeat;
   height: 700px;
   width: 480px;
-  border-radius: 0px;
-  box-shadow: 0px 0px 10px 4px #d3d4d7;
+  box-shadow: 0px 0px 10px 5px #d3d4d7;
   text-align: center;
   display: grid;
   grid-template-rows: 4fr 1fr;
@@ -18,7 +17,7 @@
 
 .card h1 {
   color: #ffffff;
-  font-size: 35pt;
+  font-size: 3rem;
   font-family: 'AudioWide';
   padding: .5rem;
   background-color: rgba(44, 101, 162, 0.9);
@@ -31,4 +30,29 @@
 .card button {
   min-width: 300px;
   width: auto;
+}
+
+
+
+@media screen and (max-width: 940px) {
+
+  .card {
+    height: auto;
+    min-height: 500px;
+    width: auto;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+  }
+
+  .card button {
+    margin-bottom: 2rem;
+    min-width: 70%;
+  }
+
+  .card h1 {
+    font-size: 2rem;
+  }
 }

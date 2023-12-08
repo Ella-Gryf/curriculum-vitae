@@ -1,5 +1,6 @@
 .about {
-  height: 80vh;
+  min-height: 80vh;
+  height: 100%;
   background-image: url('../../../assets/about-img.jpg');
   background-position: center;
   background-repeat: no-repeat;
@@ -15,8 +16,14 @@
 .about .base-container {
   display: grid;
   grid-template-columns: 1fr 2fr;
+  grid-template-areas: "space content content";
   align-items: center;
   text-align: right;
+}
+
+.about .content {
+  grid-area: content;
+  margin: 50px 0 50px 0;
 }
 
 .about p {
@@ -27,4 +34,17 @@
 
 .about button {
   margin-top: 2.5rem;
+}
+
+@media screen and (max-width:1200px) {
+
+  .about {
+    width: 100vw;
+  }
+
+  .about .base-container {
+    grid-template-columns: 1fr;
+    grid-template-areas: "content";
+    width: 100%;
+  }
 }

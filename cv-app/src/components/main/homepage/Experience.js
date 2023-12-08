@@ -31,14 +31,14 @@ const settings = {
         slidesToShow: 1,
         slidesToScroll: 1,
         infinite: true,
-        dots: true
+        dots: true,
       }
     }
     ]
   };
 
   return (
-    <div className='experience base-grid'>
+    <div className='homepage experience base-grid'>
       <div className='base-container'>
         <Slider {...settings}>
           {data.map((dataEntry) => (

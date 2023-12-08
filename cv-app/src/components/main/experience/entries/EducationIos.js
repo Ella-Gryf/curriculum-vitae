@@ -7,7 +7,7 @@ import swift from '../../../../assets/swift.jpg';
 
 const EducationIos = () => {
   return (
-    <div className='experience-entry education-entry base-grid ios'>
+    <div className='experience-entry education-entry base-grid' id='ios'>
       <div className='base-container'>
         <h1>iOS App Development Bootcamp</h1>
         <h2>Boston College, Ireland School</h2>
@@ -34,16 +34,16 @@ const EducationIos = () => {
           <div className='image-container'>
             <img src={aran} 
               alt="Aran Islands" 
-              className='img-radius box-shadow imageA' 
-              style={{width: "400px", top: "5%", right: "0", zIndex: "0"}}/>
+              className='img-radius box-shadow img-abs' 
+              id='ios-imgA' />
             <img src={bcDub1} 
               alt="Class in Dublin" 
-              className='img-radius box-shadow imageB' 
-              style={{width: "370px", top: "15%", right: "50%", zIndex: "1"}} />
+              className='img-radius box-shadow img-abs' 
+              id='ios-imgB' />
             <img src={swift} 
               alt="Swift logo" 
-              className='img-radius box-shadow imageB' 
-              style={{width: "130px", top: "62%", right: "34%", zIndex: "2"}} />
+              className='img-radius box-shadow img-abs' 
+              id='ios-imgC' />
           </div>
         </div>
         

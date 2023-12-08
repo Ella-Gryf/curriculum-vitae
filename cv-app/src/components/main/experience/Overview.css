@@ -4,6 +4,7 @@
   min-height: 70vh;
   position: relative;
   z-index: 1;
+  overflow: auto;
 }
 
 .experience-overview .base-container-narrow {

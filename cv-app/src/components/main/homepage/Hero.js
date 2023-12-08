@@ -8,8 +8,9 @@ import microchip from '../../../assets/freepik/microchip.mp4';
 
 const Hero = () => {
   return (
-    <div className='hero'>
-      <video src={microchip} className='video-sixty'
+    <div className='homepage hero'>
+      <video src={microchip} 
+        style={{filter: "brightness(60%)"}}
         autoPlay 
         loop 
         muted 

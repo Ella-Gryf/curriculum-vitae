@@ -1,5 +1,11 @@
 .custom-arrow {
-  font-size: 35pt;
+  font-size: 3rem;
   font-family: 'Montserrat';
   color: #ffffff;
+}
+
+@media screen and (max-width: 1200px) {
+  .custom-arrow {
+    font-size: 2rem;
+  }
 }

@@ -5,7 +5,7 @@ import eagles from '../../../../assets/eagles.jpg';
 
 const EducationBC = () => {
   return (
-    <div className='experience-entry education-entry base-grid bc'>
+    <div className='experience-entry education-entry base-grid' id='bc'>
       <div className='base-container'>
         <h1>Year Abroad</h1>
         <h2>Boston College, Massachusetts</h2>
@@ -33,14 +33,13 @@ const EducationBC = () => {
           <div className='image-container'>
             <img src={bc1} 
               alt="Boston College Campus" 
-              className='img-radius box-shadow imageA' 
-              style={{width: "420px", top: "10%", right: "0", zIndex: "2"}} />
+              className='img-radius box-shadow img-abs'
+              id='bc-imgA' />
             <img src={eagles} 
               alt="Boston Sport" 
-              className='img-radius box-shadow imageB'
-              style={{width: "450px", top: "30%", left: "10%", zIndex: "1"}} />
+              className='img-radius box-shadow img-abs'
+              id='bc-imgB' />
           </div>
-          
           
         </div>
       </div>
