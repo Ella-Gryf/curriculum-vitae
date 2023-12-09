@@ -33,7 +33,7 @@ const OverviewCard = (props) => {
           : null}
 
         <div className='row'>
-          <h3>{props.dates}</h3>
+          <h3 id='dates'>{props.dates}</h3>
           {props.url && <Link to={props.url} className='link icon' aria-label={`Link to Degree`}>
             See Details <FaArrowRightLong className='arrow' />
           </Link>}

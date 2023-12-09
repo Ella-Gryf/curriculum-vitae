@@ -14,27 +14,34 @@ import CustomNextArrow from './slider/CustomNextArrow';
 
 const Experience = () => {
 
-const settings = {
+var settings = {
   accessibility: true,
   dots: true,
   infinite: true,
-  speed: 500,
-  slidesToShow: 2,
+  speed: 800,
+  slidesToShow: 3,
   slidesToScroll: 1,
   focusOnSelect: true,
+  variableWidth: true,
   prevArrow: <CustomPrevArrow />, 
   nextArrow: <CustomNextArrow />,
+
   responsive: [
     {
-      breakpoint: 1350,
+      breakpoint: 2000,
       settings: {
-        slidesToShow: 1.5,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
       }
     },
     {
       breakpoint: 1200,
       settings: {
         slidesToShow: 1,
+        slidesToScroll: 1,
+        initialSlide: 2
       }
     }
     ]
@@ -43,12 +50,14 @@ const settings = {
   return (
     <div className='homepage experience base-grid'>
       <div className='base-container'>
+
         <Slider {...settings}>
           {data.map((dataEntry) => (
             <Card key={`${dataEntry.url}-${dataEntry.title}`} {...dataEntry} />
           ))}
         </Slider>
         <div id='scroll-instruction'><TbHandFinger /><h3>DRAG TO SCROLL</h3></div>
+
       </div>
     </div>
   );

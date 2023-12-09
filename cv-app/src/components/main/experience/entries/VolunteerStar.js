@@ -5,7 +5,7 @@ const VolunteerStar = () => {
   return (
     <div className='experience-entry base-grid' id='star'>
       <div className='base-container-narrow'>
-        <h1>Teacher at Homework Club</h1>
+        <h1 className='center-content'>Teacher at Homework Club</h1>
 
         <p>
           Student Action For Refugees {`(STAR)`} is a national 

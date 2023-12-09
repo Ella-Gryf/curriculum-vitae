@@ -7,8 +7,8 @@ const EducationBC = () => {
   return (
     <div className='experience-entry education-entry base-grid' id='bc'>
       <div className='base-container'>
-        <h1>Year Abroad</h1>
-        <h2>Boston College, Massachusetts</h2>
+        <h1 className='center-content'>Year Abroad</h1>
+        <h2 className='center-content'>Boston College, Massachusetts</h2>
         
         <div className='grid-row'>
           <div className='text-content'>

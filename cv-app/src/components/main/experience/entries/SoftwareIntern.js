@@ -9,8 +9,8 @@ const SoftwareIntern = () => {
   return (
     <div className='experience-entry software-entry base-grid intern'>
       <div className='base-container'>
-        <h1>Summer Internship</h1>
-        <h2>Goldman Sachs</h2>
+        <h1 className='center-content'>Summer Internship</h1>
+        <h2 className='center-content'>Goldman Sachs</h2>
 
         <div className='grid-row-left'>
           <div className='text-content'>

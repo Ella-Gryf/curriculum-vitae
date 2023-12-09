@@ -8,9 +8,9 @@ const EducationMSc = () => {
     <div className='experience-entry education-entry base-grid' id='msc'>
       <div className='base-container'>
 
-        <h1>MSc Computer Science</h1>
-        <h2>University of Bristol</h2>
-        <h2>Grade: Distinction</h2>
+        <h1 className='center-content'>MSc Computer Science</h1>
+        <h2 className='center-content'>University of Bristol</h2>
+        <h3 className='center-content'>Grade: Distinction</h3>
 
         <div className='row'>
           <div className='text-content'>

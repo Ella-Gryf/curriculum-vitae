@@ -1,14 +1,16 @@
 .card {
   background-size: cover;
   background-repeat: no-repeat;
-  height: 700px;
-  width: 480px;
+  height: calc(600px + 0.5vh);
+  width: calc(400px + 0.5vw);
   box-shadow: 0px 0px 10px 5px #d3d4d7;
   text-align: center;
   display: grid;
   grid-template-rows: 4fr 1fr;
   justify-content: baseline;
   z-index: 1;
+
+  margin: 0 calc(20px + 0.3vw) 0 calc(20px + 0.3vw);
 }
 
 .card .card-title {
@@ -17,7 +19,7 @@
 
 .card h1 {
   color: #ffffff;
-  font-size: calc(40px + 0.390625vw);
+  font-size: calc(38px + 0.390625vw);
   font-family: 'AudioWide';
   padding: .5rem;
   background-color: rgba(44, 101, 162, 0.9);
@@ -32,23 +34,24 @@
   width: auto;
 }
 
+.card .btn {
+  padding-top: calc(6px + 0.390625vw);
+  padding-bottom: calc(6px + 0.390625vw);
+  padding-left: calc(10px + 0.390625vw);
+  padding-right: calc(10px + 0.390625vw);
+}
 
 
-@media screen and (max-width: 940px) {
+
+@media screen and (max-width: 1000px) {
 
   .card {
-    height: auto;
-    min-height: 350px;
-    width: auto;
-    max-width: 400px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    z-index: 1;
+    height: calc(450px + 0.5vh);
+    width: calc(250px + 0.5vw);
   }
 
   .card h1 {
-    font-size: calc(20px + 0.390625vw);
+    font-size: calc(25px + 0.3vw);
   }
 
   .card button {
@@ -61,3 +64,41 @@
   }
 }
 
+
+@media screen and (max-width: 650px) {
+
+  .card {
+    height: calc(400px + 0.5vh);
+    width: calc(350px + 0.5vw);
+  }
+
+  .card h1 {
+    font-size: calc(25px + 0.3vw);
+  }
+
+  .card button {
+    margin-bottom: 2rem;
+    min-width: 60%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  .card {
+    height: calc(250px + 0.5vh);
+    width: calc(200px + 0.5vw);
+  }
+
+  .card h1 {
+    font-size: calc(22px + 0.3vw);
+  }
+
+  .card button {
+    margin-bottom: 2rem;
+    min-width: 60%;
+  }
+
+  .card .btn {
+    font-size: calc(15px + 0.390625vw);
+  }
+}

@@ -18,8 +18,8 @@ const SoftwareAnalyst = () => {
   return (
     <div className='experience-entry software-entry base-grid analyst'>
       <div className='base-container'>
-        <h1>Analyst in Core Engineering</h1>
-        <h2>Goldman Sachs, Warsaw</h2>
+        <h1 className='center-content'>Analyst in Core Engineering</h1>
+        <h2 className='center-content'>Goldman Sachs, Warsaw</h2>
 
         <div className='grid-row-left'>
           <div className='text-content'>

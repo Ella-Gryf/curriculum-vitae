@@ -5,7 +5,7 @@ const VolunteerMentor = () => {
   return (
     <div className='experience-entry volunteering-entry base-grid' id='mentor'>
       <div className='base-container-narrow'> 
-        <h1>Mentor to Participant on CFG's Nano-Degree</h1>    
+        <h1 className='center-content'>Mentor to Participant on CFG's Nano-Degree</h1>    
 
 
           <h2>Code First Girls Nano Degree with Goldman Sachs</h2>

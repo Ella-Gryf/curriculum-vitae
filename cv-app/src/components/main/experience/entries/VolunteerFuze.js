@@ -17,7 +17,7 @@ const VolunteerFuze = () => {
   return (
     <div className='experience-entry volunteering-entry base-grid' id='fuze'>
       <div className='base-container'>
-        <h1>Charity Director & ELA Officer</h1>
+        <h1 className='center-content'>Charity Director & ELA Officer</h1>
 
         <div className='row'>
           <div className='text-content'>

@@ -13,7 +13,8 @@ const SoftwareMeta = () => {
   return (
     <div className='experience-entry software-entry base-grid meta' id='meta'>
       <div className='base-container-narrow'>
-        <h1>Frontend Developer Professional Certificate</h1>
+
+        <h1 className='center-content'>Frontend Developer Professional Certificate</h1>
 
         <div className='grid-row'>
           <div className='text-content'>
@@ -33,8 +34,7 @@ const SoftwareMeta = () => {
               </li>        
             </ul> 
           </div>   
-
-        <div className='image-container'>
+          <div className='image-container'>
             <img src={react} 
               alt="React logo" 
               className='img-radius box-shadow img-abs' 
@@ -54,21 +54,21 @@ const SoftwareMeta = () => {
           </div>
         </div> 
 
-          <div className='text-content'>
-            <h2 className='center-content'>Capstone Project Little Lemon</h2>
-            <p className='repo-link italic center-content'>See the<span> </span>
-              <a href='https://github.com/Ella-Gryf/MetaFrontEndCertification.git' target="_blank" rel="noreferrer">
-                Git Repo
-              </a>
-            </p>
-            
-            <div className='center-content top'>
-              <img src={littlelemon1} alt="Little Lemon reservation form" className='capstone-img' />
-              <img src={littlelemon2} alt="Little Lemon reservation form" className='capstone-img' />
-            </div>          
-          </div>
+        <h2 className='center-content'>Capstone Project Little Lemon</h2>
+        <div>
+          <p className='repo-link italic center-content'>See the<span> </span>
+            <a href='https://github.com/Ella-Gryf/MetaFrontEndCertification.git' target="_blank" rel="noreferrer">
+              Git Repo
+            </a>
+          </p>
+          
+          <div className='center-content top'>
+            <img src={littlelemon1} alt="Little Lemon reservation form" className='capstone-img' />
+            <img src={littlelemon2} alt="Little Lemon reservation form" className='capstone-img' />
           </div>          
-
+        </div>
+        
+      </div>          
     </div>
   );
 };

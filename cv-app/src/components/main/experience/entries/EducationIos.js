@@ -9,8 +9,8 @@ const EducationIos = () => {
   return (
     <div className='experience-entry education-entry base-grid' id='ios'>
       <div className='base-container'>
-        <h1>iOS App Development Bootcamp</h1>
-        <h2>Boston College, Ireland School</h2>
+        <h1 className='center-content'>iOS App Development Bootcamp</h1>
+        <h2 className='center-content'>Boston College, Ireland School</h2>
 
         <div className='grid-row'>
           <div className='text-content'>

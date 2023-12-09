@@ -6,9 +6,9 @@ const EducationMA = () => {
   return (
     <div className='experience-entry education-entry base-grid ma' id='ma'>
       <div className='base-container'>
-        <h1>MA Liberal Arts</h1>
-        <h2>Major in Philosophy & Logic</h2>
-        <h3>Grade: First Class</h3>
+        <h1 className='center-content'>MA Liberal Arts</h1>
+        <h2 className='center-content'>Major in Philosophy & Logic</h2>
+        <h3 className='center-content'>Grade: First Class</h3>
 
         <div className='grid-row'>
           <div className='text-content'>
