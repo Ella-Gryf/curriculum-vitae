@@ -117,29 +117,27 @@
 }
 
 .experience-entry h1 {
-  font-size: 32pt;
+  font-size: calc(35px + 0.390625vw);
   margin: 1rem 0 1rem 0;
 }
 
 .experience-entry h2 {
-  font-size: 24pt;
+  font-size: calc(19pt + 0.390625vw);
   padding: 0 0 .5rem 0;
 }
 
 .experience-entry h3 {
   text-align: left;
-  font-size: 20pt;
+  font-size: calc(20px + 0.390625vw);
   margin: .5rem 0 .5rem 0;
 }
 
 .experience-entry p {
-  font-size: 17pt;
   line-height: 1.8rem;
   padding: 1rem 0 .5rem 0;
 }
 
 .experience-entry .list-text {
-  font-size: 18pt;
   line-height: 2.5rem;
 }
 
@@ -532,16 +530,6 @@
     margin: 10px 0 10px 0;
   }
 
-  .experience-entry h1 {
-    font-size: 28pt;
-  }
-  .experience-entry h2 {
-    font-size: 20pt;
-  }
-  .experience-entry p,
-  .experience-entry .list-text {
-    font-size: 16pt;
-  }
 }
 
 @media screen and (max-width: 700px) {
@@ -558,6 +546,7 @@
     text-align: center;
     margin: 10px 0 50px 0;
   }
+  
   #meta-imgA, #meta-imgB, #meta-imgC, #meta-imgD,
   #analyst-imgA, #analyst-imgB, #analyst-imgC, #analyst-imgD,
   #analyst-imgE, #analyst-imgF, #analyst-imgG, #analyst-imgH,

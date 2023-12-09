@@ -24,7 +24,7 @@
 .navbar ul,
 .navbar li,
 .navbar a {
-  font-size: 18pt;
+  font-size: calc(18px + 0.390625vw);
   color: #04060D;
 }
 
@@ -51,10 +51,7 @@
 @media screen and (max-width:1250px){
   .navbar .hamburger {
     display: block;
-  }
-
-  .navbar .icon {
-    font-size: 2.2rem;
+    font-size: calc(26px + 0.390625vw);
   }
 
   .navbar .nav-menu {
@@ -78,9 +75,5 @@
   .navbar .nav-menu,
   .navbar li {
     padding: 1rem;
-  }
-
-  #site-links .li {
-    font-size: 25pt;
   }
 }

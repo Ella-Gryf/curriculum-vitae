@@ -12,7 +12,7 @@ const Footer = () => {
       <div className='base-container'>
         
         <div className='col'>
-          <h3>Navigate</h3>
+          <h2>Navigate</h2>
           <nav role='navigation'>
             <ul>
               <li><Link to="/" className='li'>Home</Link></li>
@@ -26,7 +26,7 @@ const Footer = () => {
         </div>
 
         <div className='col'>
-          <h3>Contact</h3>
+          <h2>Contact</h2>
           <p>+447546347023</p>
           <p>ellagryflow@gmail.com</p>
           <p>5 The Grove</p>
@@ -35,7 +35,7 @@ const Footer = () => {
         </div>
 
         <div className='col'>
-          <h3>Channels</h3>
+          <h2>Channels</h2>
           <nav>
             <ul>
               <li>
@@ -61,7 +61,7 @@ const Footer = () => {
         </div>
 
         <div className='col centre-align'>
-          <h3>Downloadable PDF</h3>
+          <h2>Downloadable PDF</h2>
           <a href={CV} download="EllaCV" target="_blank" rel="noreferrer">
             <button className='btn'><FaDownload /></button>
           </a>

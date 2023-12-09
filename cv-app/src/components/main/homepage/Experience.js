@@ -26,12 +26,15 @@ const settings = {
   nextArrow: <CustomNextArrow />,
   responsive: [
     {
-      breakpoint: 1300,
+      breakpoint: 1350,
+      settings: {
+        slidesToShow: 1.5,
+      }
+    },
+    {
+      breakpoint: 1200,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: true,
       }
     }
     ]

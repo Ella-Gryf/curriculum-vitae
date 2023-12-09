@@ -16,6 +16,7 @@
   height: 100%;
   object-fit: cover;
   position: absolute;
+  filter: brightness(60%);
 }
 
 .hero .base-grid {
@@ -33,20 +34,20 @@
 }
 
 .hero h1 {
-  font-size: 60pt;
+  font-size: calc(60px + 0.390625vw);
   font-family: 'Audiowide';
   color: #ffffff;
 }
 
 .hero h2 {
-  font-size: 25pt;
+  font-size: calc(26px + 0.390625vw);
   font-weight: 400;
 }
 
 .hero nav {
   display: flex;
   justify-content: space-between;
-  font-size: 40pt;
+  font-size: calc(45px + 0.390625vw);
   font-weight: 500;
   padding-bottom: 5vh;
   font-family: 'AudioWide';
@@ -64,7 +65,7 @@
 }
 
 .hero .arrow {
-  font-size: 60pt;
+  font-size: calc(70px + 0.390625vw);
 }
 
 
@@ -75,14 +76,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 2.5em;
   }
 
-  .hero h1 {
-    font-size: 3em;
-  }
-
-  .hero h2 {
-    font-size: 1.5em;
-  }
 }

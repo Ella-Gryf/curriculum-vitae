@@ -28,22 +28,22 @@
   text-align: center;
 }
 
-.footer h3 {
+.footer h2 {
+  font-size: calc(14px + 0.390625vw); /* Make font-size responsive to viewport width */
   font-family: 'AudioWide';
-  font-size: 14pt;
   color: #143AA2;
 }
 
 .footer p,
 .footer a,
 .footer .li {
-  font-size: 14pt;
+  font-size: calc(11px + 0.390625vw);
   line-height: 1.8rem;
   color: #04060D;
 }
 
 .footer .btn {
-  font-size: 12pt;
+  font-size: calc(12px + 0.390625vw);
   padding: .8rem;
   margin-top: .5rem;
 }

@@ -10,7 +10,6 @@ const Hero = () => {
   return (
     <div className='homepage hero'>
       <video src={microchip} 
-        style={{filter: "brightness(60%)"}}
         autoPlay 
         loop 
         muted 

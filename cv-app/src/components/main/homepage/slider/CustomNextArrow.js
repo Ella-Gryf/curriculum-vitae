@@ -4,7 +4,8 @@ import './Arrow.css';
 const CustomNextArrow = ({ onClick }) => {
   return (
     <div className="custom-arrow icon" id='custom-next' onClick={onClick}>
-      &gt; Next
+      <div className="custom-arrow-icon">&gt;</div>
+      <div className='custom-arrow-text'>Next</div>
     </div>
   );
 };
