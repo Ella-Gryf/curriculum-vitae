@@ -96,8 +96,8 @@ const SoftwareAnalyst = () => {
           <div className='text-content'>
             <h3>Kubernetes</h3>
             <p>
-              A fellow analyst and I began the process of containerizing our platform with Kubernetes and
-              configuring the containers to run with ArgoCD deployment. 
+              A fellow analyst and I began the process of containerizing our platform with 
+              Kubernetes and configuring the containers to run with ArgoCD deployment. 
             </p>
             <p>
               By the time I left we had successfully implemented the necessary infrastructure for our 
@@ -115,16 +115,17 @@ const SoftwareAnalyst = () => {
           </p>
           <ul className='list-text indent-left'>
             <li>
-              Setup <span className='bold'> Prometheus </span> to monitor the average availability of our execution engine environments 
-              and the average latency of executing decision models in these environments given model size,
+              Setup <span className='bold'> Prometheus </span> to monitor the average availability 
+              of our execution engine environments and the average latency of executing decision 
+              models in these environments given model size,
             </li>
             <li>
               Visualised our data using <span className='bold'> Grafana dashboards</span>,
             </li>
             <li>
               Configured Prometheus' <span className='bold'> Alertmanager </span> to email alerts when our 
-            SLIs reached certain thresholds, and integrated Alertmanager with PagerDuty to notify the 
-            team in case of SLO violations.
+              SLIs reached certain thresholds, and integrated Alertmanager with PagerDuty to notify the 
+              team in case of SLO violations.
             </li>
           </ul>
         </div>

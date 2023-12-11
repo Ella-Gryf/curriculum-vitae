@@ -21,8 +21,10 @@ const EducationIos = () => {
                 I built a <span className='bold'> fully functional 
                 marketplace-style app</span>, through which users could post,
                 collect or exchange their used items. The app utilised location 
-                services to show relative proxity of the user to items listen in the 
-                main feed.
+                services to show relative proximity of the user to items listed 
+                in the main feed. Users could 'heart' the item to save it for later,
+                message the lister directly, and/or 'claim' the item to remove it 
+                from the feed before setting out to pick it up. 
               </li>
               <li>
                 The goal was to promote the exchange economy for the sake of environmental 
