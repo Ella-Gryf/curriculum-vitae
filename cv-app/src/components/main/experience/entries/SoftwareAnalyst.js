@@ -27,7 +27,7 @@ const SoftwareAnalyst = () => {
             <p>
               My team provided internal developers across the firm with the ability to
               digitize and automate business decisions. We maintained a centrally-hosted, 
-              microservices-based web service featuring RESTful APIs and a a scale out 
+              microservices-based web service featuring RESTful APIs and a scale out 
               farm of discoverable, Nimbus 2-aliased nodes. 
             </p>
             <p>
