@@ -3,6 +3,7 @@ import React from 'react';
 import java from '../../../../assets/techicons/java.jpg';
 import git from '../../../../assets/techicons/git.jpg';
 import zoom from '../../../../assets/techicons/zoom.jpg';
+import postman from '../../../../assets/techicons/postman.jpg';
 
 
 const SoftwareIntern = () => {
@@ -25,23 +26,30 @@ const SoftwareIntern = () => {
 
           </div>
 
-          <div className='image-container'>
-            <img src={java} 
-              alt="Java logo" 
-              className='img-radius-c box-shadow img-abs' 
-              id='intern-imgA' />
-            <img src={zoom} 
-              alt="Zoom logo" 
-              className='img-radius-c box-shadow img-abs'
-              id='intern-imgB' />
-            <img src={git} 
-              alt="Git logo" 
-              className='img-radius-c box-shadow img-abs' 
-              id='intern-imgC' />
+          <div className='logo-container'>
+            <div className='logo-container-top'>
+              <div>
+                <img src={java} 
+                  alt="Java logo" 
+                  className='img-radius-c box-shadow logo' />
+                <img src={git} 
+                  alt="Git logo" 
+                  className='img-radius-c box-shadow logo' />
+              </div>
+            </div>
+            <div className='logo-container-bottom'>
+              <div>
+                <img src={postman} 
+                  alt="Postman logo" 
+                  className='img-radius-c box-shadow logo' />
+                <img src={zoom} 
+                  alt="Zoom logo" 
+                  className='img-radius-c box-shadow logo' />
+              </div>
+            </div>
           </div>
-
+          
         </div>
-
         
       </div>
     </div>

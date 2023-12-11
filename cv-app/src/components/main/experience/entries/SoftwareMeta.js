@@ -34,23 +34,28 @@ const SoftwareMeta = () => {
               </li>        
             </ul> 
           </div>   
-          <div className='image-container'>
-            <img src={react} 
-              alt="React logo" 
-              className='img-radius box-shadow img-abs' 
-              id='meta-imgA' />
-            <img src={npm} 
-              alt="NPM logo" 
-              className='img-radius box-shadow img-abs'
-              id='meta-imgB' />
-            <img src={javascript} 
-              alt="JavaScript logo" 
-              className='img-radius box-shadow img-abs' 
-              id='meta-imgC' />
-              <img src={bootstrap} 
-              alt="Bootstrap logo" 
-              className='img-radius box-shadow img-abs'
-              id='meta-imgD' />
+
+          <div className='logo-container'>
+            <div className='logo-container-top'>
+              <div>
+                <img src={react} 
+                  alt="React logo" 
+                  className='img-radius-c box-shadow logo' />
+                <img src={npm} 
+                  alt="NPM logo" 
+                  className='img-radius-c box-shadow logo' />
+              </div>
+            </div>
+            <div className='logo-container-bottom'>
+              <div>
+                <img src={javascript} 
+                  alt="JavaScript logo" 
+                  className='img-radius-c box-shadow logo' />
+                <img src={bootstrap} 
+                  alt="Bootstrap logo" 
+                  className='img-radius-c box-shadow logo' />
+              </div>
+            </div>
           </div>
         </div> 
 

@@ -40,48 +40,59 @@ const SoftwareAnalyst = () => {
 
           </div>
 
-          <div className='image-container'>
-            <img src={java} 
-              alt="Java logo" 
-              className='img-radius-c box-shadow img-abs' 
-              id='analyst-imgA' />
-            <img src={elastic} 
-              alt="Elasticsearch logo" 
-              className='img-radius-c box-shadow img-abs'
-              id='analyst-imgB' />
-            <img src={aws} 
-              alt="AWS logo" 
-              className='img-radius-c box-shadow img-abs' 
-              id='analyst-imgC' />
-            <img src={kafka} 
-              alt="Apache Kafka logo" 
-              className='img-radius-c box-shadow img-abs'
-              id='analyst-imgD' />
+          <div className='logo-container'>
+            <div className='logo-container-top'>
+              <div>
+                <img src={java} 
+                  alt="Java logo" 
+                  className='img-radius-c box-shadow logo' />
+                <img src={elastic} 
+                  alt="Elasticsearch logo" 
+                  className='img-radius-c box-shadow logo' />
+              </div>
+            </div>
+            <div className='logo-container-bottom'>
+              <div>
+                <img src={aws} 
+                  alt="AWS logo" 
+                  className='img-radius-c box-shadow logo' />
+                <img src={kafka} 
+                  alt="Apache Kafka logo" 
+                  className='img-radius-c box-shadow logo' />
+              </div>
+            </div>
           </div>
+
+
         </div>
 
         <h2 id='analyst-contributions'>My Contributions</h2>
 
-        <div className='grid-row-right'>          
-          <div className='image-container'>
-            <img src={k8} 
-              alt="Kubernetes" 
-              className='img-radius-c box-shadow img-abs' 
-              id='analyst-imgE' />
-            <img src={argo} 
-              alt="ArgoCD logo" 
-              className='img-radius-c box-shadow img-abs'
-              id='analyst-imgF' />
-            <img src={prometheus} 
-              alt="Prometheus logo" 
-              className='img-radius-c box-shadow img-abs' 
-              id='analyst-imgG' />
-            <img src={grafana} 
-              alt="Grafana dashboards logo" 
-              className='img-radius-c box-shadow img-abs'
-              id='analyst-imgH' />
-          </div>
+        <div className='grid-row-right'>  
 
+          <div className='logo-container'>
+            <div className='logo-container-top'>
+              <div>
+                <img src={k8} 
+                  alt="Kubernetes logo" 
+                  className='img-radius-c box-shadow logo' />
+                <img src={argo} 
+                  alt="ArgoCD logo" 
+                  className='img-radius-c box-shadow logo' />
+              </div>
+            </div>
+            <div className='logo-container-bottom'>
+              <div>
+                <img src={prometheus} 
+                  alt="Prometheus logo" 
+                  className='img-radius-c box-shadow logo' />
+                <img src={grafana} 
+                  alt="Grafana dashboards logo" 
+                  className='img-radius-c box-shadow logo' />
+              </div>
+            </div>
+          </div>        
+          
           <div className='text-content'>
             <h3>Kubernetes</h3>
             <p>
