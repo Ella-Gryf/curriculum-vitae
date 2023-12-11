@@ -38,9 +38,9 @@ const VolunteerFuze = () => {
             <h2>Charity Director</h2>
             <p>
               I sourced suitable, local charities for our committee to vote on, I was the liason 
-              between the charities and our committee and I organised fundraising events throughout
-              both years in this role. I also worked with the rest of the Fuze committee to ensure
-              the material we were creating to promote the charities were in line with the charities'
+              between the charities and our committee, and I organised fundraising events throughout
+              both years. I also worked with the rest of the committee to ensure
+              the material we were creating to promote the charities was in line with the charities'
               respective brands and core values.
             </p>
             <p>
@@ -60,6 +60,13 @@ const VolunteerFuze = () => {
               The countless measures we took to ensure diversity of cast, crew and committee, and to make FUZE
               a safe space for all from our private zooms to our final show, were all a group effort that 
               succeeded thanks to the unity and enthusiasm of the entire committee. 
+            </p>
+            <p>
+              As the ELA officer, the 
+              change I am most proud of myself is being instrumental in opening up committee positions to a 
+              far broader range of people from outside the University including many whom we reached through 
+              our relationships with the charities. This really transformed FUZE from a student society to a 
+              community in its own right.   
             </p>
             <p>
               During my tenure, the Bright Network chose FUZE as the first place winners of their 

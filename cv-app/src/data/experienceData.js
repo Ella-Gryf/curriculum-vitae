@@ -112,11 +112,11 @@ export const referencesData = [
   {
     title: "Marek Bubala",
     subtitle: "Manager at Goldman Sachs",
-    dates: "Marek.Bubala@gs.com",
+    dates: "Marek.Bubala@gs.com | +48 512386131",
   },
   {
     title: "Conor Houghton",
     subtitle: "MSc Dissertation Supervisor",
-    dates: "conor.houghton@bristol.ac.uk | +441179545140",
+    dates: "conor.houghton@bristol.ac.uk | +44 1179545140",
   },
 ];
