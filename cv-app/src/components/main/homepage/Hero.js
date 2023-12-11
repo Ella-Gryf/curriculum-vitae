@@ -3,10 +3,6 @@ import { Link } from 'react-router-dom';
 import { IoIosArrowRoundDown } from "react-icons/io";
 import './Hero.css';
 
-
-import microchip from '../../../assets/freepik/microchip.mp4';
-import videoImg from '../../../assets/freepik/backuphero.jpg';
-
 const Hero = () => {
   return (
     <div className='homepage hero'>
