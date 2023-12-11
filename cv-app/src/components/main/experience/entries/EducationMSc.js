@@ -23,7 +23,7 @@ const EducationMSc = () => {
                 <li>C programming</li>
                 <li>Java programming</li>
                 <li>Computer architecture</li>
-                <li>Datavase management SQL</li>
+                <li>Database management SQL</li>
                 <li>Web development group project {`(Angular & Typescript)`}</li>
               </ul>
             </div>
@@ -40,10 +40,16 @@ const EducationMSc = () => {
             <h2>Dissertation</h2>
             <p style={{marginRight: "1rem"}}>
               Researching in the field of computational neuroscience, I developed a deep 
-              learning algorithm called a Long Short-Term Memor {`(LSTM)`} network. Using 
+              learning algorithm called a Long Short-Term Memory {`(LSTM)`} network. Using 
               Esperanto as my test case, I investigated the LSTM's grammatical encoding
               abilities by measuring its performance on an Esperanto affix-prediction task
-              against that of a human control group.
+              against that of a human control group. I received a Distinction for the paper. 
+            </p>
+            <p>              
+              In terms of research methodologies, I recruited participants for my Esperanto 
+              control study via online Esperanto forums and many institutions where Esperanto is
+              taught, including the Universal Esperanto Association. My control study ended up being 
+              the largest ever study of it's nature that I could find evidence for. 
             </p>
             <p>
             See the dissertation <span></span>
