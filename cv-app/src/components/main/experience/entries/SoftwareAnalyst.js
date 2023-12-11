@@ -60,7 +60,7 @@ const SoftwareAnalyst = () => {
           </div>
         </div>
 
-        <h2 style={{marginTop: "2rem"}}>My Contributions</h2>
+        <h2 id='analyst-contributions'>My Contributions</h2>
 
         <div className='grid-row-right'>          
           <div className='image-container'>

@@ -5,15 +5,19 @@ import './Hero.css';
 
 
 import microchip from '../../../assets/freepik/microchip.mp4';
+import videoImg from '../../../assets/freepik/backuphero.jpg';
 
 const Hero = () => {
   return (
     <div className='homepage hero'>
-      <video src={microchip} 
-        autoPlay 
-        loop 
-        muted 
-      />
+
+    <div className="fullscreen-video-wrap" dangerouslySetInnerHTML={{ __html: `
+      <video playsinline loop autoPlay muted autobuffer poster="../../../assets/freepik/backuphero.jpg">
+        <source src="${require('../../../assets/freepik/microchip.mp4')}" type="video/mp4" />
+        <img src="${require('../../../assets/freepik/backuphero.jpg')}" alt=""/>
+      </video>            
+    ` }}></div>
+    
       <div className='base-grid'>
         <div className='base-container'>
           <div>

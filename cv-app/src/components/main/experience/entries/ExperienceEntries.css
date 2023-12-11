@@ -107,6 +107,9 @@
   align-items: center;
 }
 
+.software-entry #analyst-contributions {
+  margin-top: 2rem;
+}
 
 
 
@@ -495,7 +498,7 @@
     left: 0;
     right: 0;
     margin: 10px 10px 10px 10px;
-    width: 100px;
+    width: calc(90px + 0.3vw);
     position: relative;
   }
 
@@ -514,6 +517,11 @@
 
   #analyst-img-friends {
     margin-top: 0;
+  }
+
+  .software-entry #analyst-contributions {
+    margin-top: 4rem;
+    margin-bottom: 5rem;
   }
 }
 
@@ -550,8 +558,7 @@
     top: 0;
     left: 0;
     right: 0;
-    margin-top: 1rem;
-    width: 100px;
+    width: calc(85px + 0.3vw);
     position: relative;
   }
 
