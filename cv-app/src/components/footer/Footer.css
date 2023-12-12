@@ -1,12 +1,15 @@
 .footer {
-  height: 220px;
+  height: 100%;
+  min-height: 220px;
   margin-top: 0;
   left: 0;
+  margin-bottom: 0;
   background-color: #ececec;
   border-style: solid;
   border-width: 3px;
   border-image: linear-gradient(to left, rgba(0, 0, 0, 1) 1%, rgba(0, 255, 255, 1) 50%, rgba(0, 0, 0, 1) 100%) 
                 100% 0 100% 0/4px 0 0 0 stretch;
+  position: relative;
   z-index: 5;
 }
 
